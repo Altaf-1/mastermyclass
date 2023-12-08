@@ -1981,7 +1981,7 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: flex-end;
-  padding: 163px 0 0;
+  padding: 63px 0 0;
   position: relative;
 }
 @media (max-width: 1500px) {
