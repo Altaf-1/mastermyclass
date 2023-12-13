@@ -45,34 +45,56 @@
                         <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
+
                                 <div class="">
                                     <a href="index.html"><img src="assets/img/logo/log_2.png"
                                             style="height: 80px; width: 240px;" alt="Logo"></a>
                                 </div>
+                                <div class="tgmenu__categories d-none d-md-block m-3 ">
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 12H6.85714V6.85714H12V12ZM5.14286 12H0V6.85714H5.14286V12ZM12 5.14286H6.85714V0H12V5.14286ZM5.14286 5.14286H0V0H5.14286V5.14286Z"
+                                                    fill="currentcolor" />
+                                            </svg>
+                                            Browse Categories
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                            <li><a class="dropdown-item" href="#">Art & Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                                            <li><a class="dropdown-item" href="#">Finance</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
-                                        <li class="active menu-item-has-children"><a href="#">Home</a>
 
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Courses</a>
+                                        <li><a href="/index.html" style="font-size: 22px;">Home</a></li>
+                                        <li class="active"><a href="/about-us.html" style="font-size: 22px;">About Us</a></li>
+                                        <li class="menu-item-has-children" style="font-size: 22px;"><a href="#" style="font-size: 22px;">Courses</a>
                                             <ul class="sub-menu">
-                                                <li><a href="courses.html">All Courses</a></li>
-                                                <li><a href="course-details.html">Course Details</a></li>
+                                                <li><a href="" style="font-size: 22px;">All Courses</a></li>
+                                                <li><a href="" style="font-size: 22px;">Course Details</a></li>
                                             </ul>
                                         </li>
-
-                                        <li class="menu-item-has-children"><a href="#">Shop</a>
-
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Blog</a>
-
+                                        <li><a href="#" style="font-size: 22px;">Events</a></li>
+                                        <li class="menu-item-has-children"><a href="#" style="font-size: 22px;">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="" style="font-size: 22px;">All Courses</a></li>
+                                                <li><a href="" style="font-size: 22px;">Course Details</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn"><a href="contact.html" class="btn">Login/Register</a>
+                                        <li class="header-btn"><a href="" class="btn" >Login/Register</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -83,30 +105,15 @@
                             <nav class="tgmobile__menu-box">
                                 <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
                                 <div class="nav-logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
-                                </div>
-                                <div class="tgmobile__search">
-                                    <form action="#">
-                                        <input type="text" placeholder="Search here...">
-                                        <button><i class="fas fa-search"></i></button>
-                                    </form>
+                                    <a href="index.html"><img src="assets/img/logo/log_2.png" alt="Logo"></a>
                                 </div>
                                 <div class="tgmobile__menu-outer">
                                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn login-btn"><a href="#" class="btn">Log in</a></li>
-                                        <li class="header-btn"><a href="#" class="btn">Try For Free</a></li>
-                                    </ul>
-                                </div>
-                                <div class="social-links">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -119,7 +126,6 @@
         </div>
     </header>
     <!-- header-area-end -->
-
 
 
     <!-- main-area -->
@@ -254,96 +260,99 @@
 
 
 
-    <!-- footer-area -->
-    <footer class="footer-bg" data-bg-color="var(--tg-common-color-dark)">
-        <div class="footer__top-wrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-widget">
-                            <div class="footer__about">
-                                <div class="footer__logo logo">
-                                    <a href="index.html"><img src="assets/img/logo/secondary_logo.png" alt="img"></a>
-                                </div>
-                                <p>when an unknown printer took galley of type and scrambled it to make pspecimen bookt
-                                    has.</p>
-                                <ul class="list-wrap m-0 p-0">
-                                    <li class="address">463 7th Ave, NY 10018, USA</li>
-                                    <li class="number">+123 88 9900 456</li>
-                                    <li class="socials">
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i class="fab fa-youtube"></i></a>
-                                    </li>
-                                </ul>
+   <!-- footer-area -->
+   <footer class="footer-bg" data-bg-color="var(--tg-common-color-dark)">
+    <div class="footer__top-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="footer-widget">
+                        <div class="footer__about">
+                            <div class="footer__logo logo">
+                                <a href="index.html"><img src="assets/img/logo/log_2.png" style="width: 65;"
+                                        alt="img"></a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-widget widget_nav_menu">
-                            <h4 class="fw-title">Resources</h4>
-                            <ul class="list-wrap">
-                                <li><a href="about-us.html">About</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="contact.html">Help Center</a></li>
-                                <li><a href="#">Refund</a></li>
-                                <li><a href="#">Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
+                            <p>Online learning provides flexible access to diverse resources, fostering self-paced
+                                skill development and global networking opportunities.</p>
+                            <ul class="list-wrap m-0 p-0">
+                                <li class="address">Tezpur</li>
+                                <li class="number">8638206840</li>
+                                <li class="socials">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-youtube"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-widget widget_nav_menu">
-                            <h4 class="fw-title">Courses</h4>
-                            <ul class="list-wrap">
-                                <li><a href="courses.html">Life Coach</a></li>
-                                <li><a href="courses.html">Business Coach</a></li>
-                                <li><a href="courses.html">Health Coach</a></li>
-                                <li><a href="courses.html">Development</a></li>
-                                <li><a href="courses.html">Web Design</a></li>
-                                <li><a href="courses.html">SEO Optimize</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="footer-widget widget_nav_menu">
+                        <h4 class="fw-title">Resources</h4>
+                        <ul class="list-wrap">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Refund</a></li>
+                            <li><a href="#">Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-sm-6">
-                        <div class="footer-widget">
-                            <h4 class="fw-title">Subscribe Newsletter</h4>
-                            <div class="footer__newsletter">
-                                <p class="desc">Known printer took galley type and
-                                    scrambled it to make.</p>
-                                <form action="#">
-                                    <input type="email" placeholder="Enter your email">
-                                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
-                                </form>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="footer-widget widget_nav_menu">
+                        <h4 class="fw-title">Courses</h4>
+                        <ul class="list-wrap">
+                            <li><a href="#">I - III Classes</a></li>
+                            <li><a href="#">IV - VII Classes</a></li>
+                            <li><a href="#">VIII - X Classes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6">
+                    <div class="footer-widget">
+                        <h4 class="fw-title">Working Hours</h4>
+                        <div class="footer__working-list">
+                            <div class="footer__working-item">
+                                <span class="day">Mon - Fri</span>
+                                <span class="time">8:00 AM - 5:00 PM</span>
+                            </div>
+                            <div class="footer__working-item">
+                                <span class="day">Mon - Fri</span>
+                                <span class="time">9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="footer__working-item">
+                                <span class="day">Mon - Fri</span>
+                                <span class="time">10:00 AM - 8:00 PM</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="copyright__wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="copyright__text">
-                            <p>Copyright © 2023 eduvalt. All rights reserved.</p>
-                        </div>
+    </div>
+    <div class="copyright__wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="copyright__text">
+                        <p>Copyright © 2023 MasterMyClass. All rights reserved.</p>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="copyright__menu">
-                            <ul class="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="copyright__menu">
+                        <ul class="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- footer-area-end -->
+    </div>
+</footer>
+<!-- footer-area-end -->
 
 
 

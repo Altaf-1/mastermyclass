@@ -37,8 +37,7 @@
 
     <!-- header-area -->
     <div id="header-fixed-height"></div>
-    <header class="tg-header__style-three">
-
+    <header class="tg-header__style-two">
         <div id="sticky-header" class="tg-header__area">
             <div class="container custom-container">
                 <div class="row">
@@ -46,43 +45,57 @@
                         <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
                         <div class="tgmenu__wrap">
                             <nav class="tgmenu__nav">
+
                                 <div class="">
-                                    <a href="index.html"><img src="assets/img/logo/log_2.png" style="height: 50; width: 100;" alt="Logo"></a>
+                                    <a href="index.html"><img src="assets/img/logo/log_2.png"
+                                            style="height: 80px; width: 240px;" alt="Logo"></a>
                                 </div>
-                                <div class="tgmenu__navbar-wrap tgmenu__main-menu font-bold d-none d-xl-flex justify-content-center align-items-center">
+                                <div class="tgmenu__categories d-none d-md-block m-3 ">
+                                    <div class="dropdown">
+                                        <button class="dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 12H6.85714V6.85714H12V12ZM5.14286 12H0V6.85714H5.14286V12ZM12 5.14286H6.85714V0H12V5.14286ZM5.14286 5.14286H0V0H5.14286V5.14286Z"
+                                                    fill="currentcolor" />
+                                            </svg>
+                                            Browse Categories
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Business</a></li>
+                                            <li><a class="dropdown-item" href="#">Data Science</a></li>
+                                            <li><a class="dropdown-item" href="#">Art & Design</a></li>
+                                            <li><a class="dropdown-item" href="#">Marketing</a></li>
+                                            <li><a class="dropdown-item" href="#">Finance</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
-                                        <li class="active"><a href="index.html">Home</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li class="active"><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li><a href="index-3.html">Home Three</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class="menu-item-has-children"><a href="#">Courses</a>
+
+                                        <li><a href="index.html" style="font-size: 22px;">Home</a></li>
+                                        <li class="active"><a href="/about-us.html" style="font-size: 22px;">About Us</a></li>
+                                        <li class="menu-item-has-children" style="font-size: 22px;"><a href="#" style="font-size: 22px;">Courses</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">I - III</a></li>
-                                                <li><a href="#">IV - VII</a></li>
-                                                <li><a href="#">VIII - X</a></li>
+                                                <li><a href="" style="font-size: 22px;">All Courses</a></li>
+                                                <li><a href="" style="font-size: 22px;">Course Details</a></li>
                                             </ul>
                                         </li>
-                                        <li class=""><a href="about-us.html">About</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="shop.html">Shop Page</a></li>
-                                                <li><a href="shop-details.html">Shop Details</a></li>
-                                            </ul> -->
-                                        </li>
-                                        <li class=""><a href="#">Contact</a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog.html">Blog Standard</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul> -->
+                                        <li><a href="#" style="font-size: 22px;">Events</a></li>
+                                        <li class="menu-item-has-children"><a href="#" style="font-size: 22px;">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="" style="font-size: 22px;">All Courses</a></li>
+                                                <li><a href="" style="font-size: 22px;">Course Details</a></li>
+                                            </ul>
                                         </li>
                                     </ul>
                                 </div>
+
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn free-btn rounded"><a href="#" class="btn">Login/Register</a></li>
+                                        <li class="header-btn"><a href="" class="btn" >Login/Register</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -99,16 +112,8 @@
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn"><a href="#" class="btn">Join With Us</a></li>
-                                    </ul>
-                                </div>
-                                <div class="social-links">
-                                    <ul class="list-wrap">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </nav>
@@ -159,21 +164,15 @@
                                 <h2 class="title tg-svg">The Leading Global <span class="position-relative"><span class="svg-icon" id="about-svg" data-svg-icon="assets/img/icons/title_shape.svg"></span>Marketplace</span> for Learning and Instruction</h2>
                             </div>
                             <p class="fw-medium">"Unlock a world of knowledge from the comfort of your home with online education – where flexibility meets limitless learning opportunities."</p>
-                            <p>"Empower your education journey with the best minds in the industry through online learning – where top-tier teachers bring expertise to your doorstep, making excellence accessible anytime, anywhere."</p>
-                            <div class="tg-button-wrap">
-                                <a href="" class="btn tg-svg"><span class="text">Explore Courses</span> <span class="svg-icon" id="about-btn" data-svg-icon="assets/img/icons/btn-arrow.svg"></span></a>
-                            </div>
+                            <p class="fw-medium">"Unlock a world of knowledge from the comfort of your home with online education – where flexibility meets limitless learning opportunities."</p>
+                            <p class="fw-medium">"Unlock a world of knowledge from the comfort of your home with online education – where flexibility meets limitless learning opportunities."</p>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-6 col-md-11">
                         <div class="about__images-wrap">
-                            <div class="column">
-                                <img src="assets/img/about_img03.jpg" alt="img">
-                            </div>
-                            <div class="column">
-                                <img src="assets/img/about_img04.jpg" alt="img">
-                                <img src="assets/img/about_img05.jpg" alt="img">
-                            </div>
+                            <div class="ratio ratio-16x9 rounded" style="height: 500px;">
+                                <iframe src="https://www.youtube.com/embed/vlDzYIIOYmM" title="YouTube video" allowfullscreen></iframe>
+                              </div>
                             <div class="about__shapes">
                                 <img src="assets/img/objects/about_shape01.png" alt="img" class="about-shape-01" data-aos="fade-down-left">
                                 <img src="assets/img/objects/about_shape02.png" alt="img" class="about-shape-02" data-aos="fade-up-right">
@@ -281,11 +280,7 @@
                                 <h2 class="title tg-svg">Upcoming <span class="position-relative"><span class="svg-icon" id="event-svg" data-svg-icon="assets/img/icons/title_shape.svg"></span>Events</span></h2>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="tg-button-wrap justify-content-center justify-content-md-end">
-                                <a href="#" class="btn btn-border tg-svg"><span class="text">Our All Events</span> <span class="svg-icon" id="events-btn" data-svg-icon="assets/img/icons/btn-arrow.svg"></span></a>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -341,6 +336,85 @@
             </div>
         </section>
         <!-- events-area-end -->
+
+        <!-- contact-area -->
+        <section class="contact-area pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="contact-info-wrap">
+                            <h2 class="title">Keep In Touch With Us</h2>
+                            <p>Our Expert team help your to understand the course in details. Which help you to take
+                                right decision for your future.</p>
+                            <ul class="list-wrap">
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-pin-1"></i>
+                                    </div>
+                                    <div class="content">
+                                        <p>Tezpur <br> India</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-phone-call"></i>
+                                    </div>
+                                    <div class="content">
+                                        <a href="tel:0123456789">+123 555 69090</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <i class="flaticon-email"></i>
+                                    </div>
+                                    <div class="content">
+                                        <a href="mailto:info@gmail.com">info@gmail.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact-form-wrap">
+                            <h4 class="title">Get in Touch</h4>
+                            <form id="contact-form" action="assets/mail.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input name="name" type="text" placeholder="Name *" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input name="email" type="email" placeholder="E-mail *" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input name="phone" type="number" placeholder="Phone *" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-grp">
+                                            <input name="subject" type="text" placeholder="Your Subject *" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-grp">
+                                    <textarea name="message" placeholder="Message" required></textarea>
+                                </div>
+                                <button type="submit" class="btn">Send Message</button>
+                            </form>
+                            <p class="ajax-response mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224.76903774303682!2d94.92013135068093!3d27.486674675566938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37409983a3afaa8d%3A0xe1e285a456f6c284!2sworkstation!5e0!3m2!1sen!2sin!4v1702441539488!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- contact-area-end -->
 
     </main>
     <!-- main-area-end -->
