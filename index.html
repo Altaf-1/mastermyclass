@@ -53,7 +53,7 @@
     <div id="header-fixed-height"></div>
     <header class="tg-header__style-two">
         <div id="sticky-header" class="tg-header__area">
-            <div class="container custom-container">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
@@ -63,20 +63,6 @@
                                 <div class="">
                                     <a href="index.html"><img src="assets/Group35.png"
                                             style="height: 80px; width: 240px;" alt="Logo"></a>
-                                </div>
-                                <div class="tgmenu__categories d-none d-md-block m-3 ">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle text-white" type="button"
-                                            style="background-color: #11408A;" id="dropdownMenuButton1"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Browse Categories
-                                        </button>
-                                        <ul class="dropdown-menu text-white" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
                                     <ul class="navigation">
@@ -95,7 +81,7 @@
 
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        <li class="header-btn"><a href="/login.html" class="btn">Login/Register</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -113,7 +99,7 @@
                                 </div>
                                 <div class="tgmenu__action">
                                     <ul class="list-wrap">
-                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        <li class="header-btn"><a href="/login.html" class="btn">Login/Register</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -132,7 +118,9 @@
 
     <!-- main-area -->
     <main class="main-area fix">
-
+        <div class="text-center" style="background-color: #11408A;">
+            <p class="text-white" style="font-size: 28px;">Launching After : <span id="demo"></span></p>
+        </div>
         <!-- banner-area -->
         <section class="banner-area banner-bg" data-background="assets/img/banner/banner_bg.jpg">
             <div class="container">
@@ -169,9 +157,23 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="tg-button-wrap">
-                                            <a href="#" class="btn tg-svg"><span class="text">Explore Courses</span>
-                                                <span class="svg-icon" id="svg-1"
-                                                    data-svg-icon="assets/img/icons/btn-arrow.svg"></span></a>
+                                            <div class="">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle text-white"
+                                                        type="button" style="background-color: #11408A;"
+                                                        id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false">
+                                                        Browse Categories
+                                                    </button>
+                                                    <ul class="dropdown-menu text-white"
+                                                        aria-labelledby="dropdownMenuButton1">
+                                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -240,8 +242,7 @@
                     <div class="row align-items-end">
                         <div class="col-lg-6">
                             <div class="section__title text-center text-lg-start">
-                                <span class="sub-title">Unique online courses</span>
-                                <h2 class="title tg-svg">Explore<span class="position-relative"><span class="svg-icon"
+                                <h2 class="title tg-svg">Explore <span class="position-relative"><span class="svg-icon"
                                             id="svg-4"
                                             data-svg-icon="assets/img/icons/title_shape.svg"></span>Courses</span>
                                 </h2>
@@ -251,7 +252,7 @@
                 </div>
                 <div class="row courses-active row-cols-1 row-cols-xl-3 row-cols-lg-2 row-cols-md-2 row-cols-sm-1">
                     <div class="col grid-item cat-two cat-three">
-                        <div
+                        <!-- <div
                             style="background-image: url(assets/Frame6.png); width: 800px; height: 450px; background-repeat: no-repeat, repeat; width: auto; background-position: center; background-size: cover;">
                             <div class="row p-4">
                                 <h3 class="pt-3">Classes I-V</h3>
@@ -272,57 +273,14 @@
                                     style="background-color: #e49f15; width: 80%;">Explore Courses</a>
                                 <div></div>
                             </div>
-                        </div>
+                        </div> -->
+                        <a href="bulk_course.html"><img src="assets/img/class/class1.jpg" height="440px" /></a>
                     </div>
                     <div class="col grid-item cat-two cat-three">
-                        <div
-                            style="background-image: url(assets/Frame7.png); width: 800px; height: 450px; background-repeat: no-repeat, repeat; width: auto; background-position: center; background-size: cover;">
-                            <div class="row p-4">
-                                <h3 class="pt-3">Classes VI-VIII</h3>
-                                <div class="col-lg-6 pt-2">
-                                    <div style="display: flex; flex-direction: column;">
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Assamese</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Bodo</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Hindi</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">English</a>
-                                    </div>
-
-                                </div>
-                                <a class="text-center text-white p-2 rounded-pill mt-5"
-                                    style="background-color: #e49f15; width: 80%;">Explore
-                                    Courses</a>
-                                <div></div>
-                            </div>
-                        </div>
+                        <a href="bulk_course.html"><img src="assets/img/class/class2.png" height="440px" /></a>
                     </div>
                     <div class="col grid-item cat-two cat-three">
-                        <div
-                            style="background-image: url(assets/Frame11.png); width: 800px; height: 450px; background-repeat: no-repeat, repeat; width: auto; background-position: center; background-size: cover;">
-                            <div class="row p-4">
-                                <h3 class="pt-3">Classes VI-VIII</h3>
-                                <div class="col-lg-6 pt-2">
-                                    <div style="display: flex; flex-direction: column;">
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Assamese</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Bodo</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">Hindi</a>
-                                        <a class="text-center text-white p-2 rounded-pill mt-2"
-                                            style="background-color: #11408A;">English</a>
-                                    </div>
-
-                                </div>
-                                <a class="text-center text-white p-2 rounded-pill mt-5"
-                                    style="background-color: #e49f15; width: 80%;">Explore
-                                    Courses</a>
-                                <div></div>
-                            </div>
-                        </div>
+                        <a href="bulk_course.html"><img src="assets/img/class/class3.png" height="440px" /></a>
                     </div>
                 </div>
             </div>
@@ -366,7 +324,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>>
             </div>
         </section>
         <!-- online-area-end -->
@@ -375,7 +333,9 @@
             <div style="background-color: #11408A">
                 <div class="container pt-5 pb-5">
                     <h2 class="text-center fw-bold text-white ">Why Choose Us</h2>
-                    <center><hr style="width: 20%; border: 3px solid rgb(245, 244, 242); border-radius: 3px;"/></center>
+                    <center>
+                        <hr style="width: 20%; border: 3px solid rgb(245, 244, 242); border-radius: 3px;" />
+                    </center>
                     <div class="row">
                         <div class="col-lg-6 p-4">
                             <div class="bg-light p-5 rounded-3 border-start border-warning border-5">
@@ -444,68 +404,25 @@
 
         <!-- about-area -->
         <section class="about-area tg-motion-effects section-py-120">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-6 col-lg-8">
-                        <div class="about__images">
-                            <img class="small-img tg-motion-effects3" src="assets/img/about_img02.png" alt="img">
-                            <img class="big-img rounded" src="assets/img/about-1.jpg" alt="img">
-                            <div class="about__exp">
-                                <svg width="126" height="108" viewBox="0 0 126 108" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0 10C0 4.47715 4.47715 0 10 0H110.996C116.321 0 120.713 4.17312 120.983 9.4914L125.429 96.7793C125.733 102.754 120.758 107.657 114.789 107.267L9.34719 100.369C4.08901 100.025 0 95.6593 0 90.3899V10Z"
-                                        fill="currentcolor" />
-                                </svg>
-                                <h4 class="year">2 +</h4>
-                                <p>Years of Experiences</p>
-                            </div>
-                            <img src="assets/img/others/about_dots.svg" alt="svg" class="dots tg-motion-effects2">
-                            <svg class="circle tg-motion-effects1" width="344" height="344" viewBox="0 0 344 344"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="20" y="20" width="304" height="304" rx="152" stroke="currentcolor"
-                                    stroke-width="40" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-7">
-                        <div class="about__content">
-                            <div class="section__title">
-                                <span class="sub-title">Get To Know About Us</span>
-                                <h2 class="title tg-svg">Discover top <span class="position-relative"><span
-                                            class="svg-icon" id="svg-3"
-                                            data-svg-icon="assets/img/icons/title_shape.svg"></span>Instructors</span>
-                                    Around the World</h2>
-                            </div>
-                            <ul class="about__info-list list-wrap mb-4">
-                                <li class="about__info-list-item">
-                                    <div class="icon"><i class="flaticon-support"></i></div>
-                                    <p class="content">20+ <br> Expert Tutors</p>
-                                </li>
-                                <li class="about__info-list-item">
-                                    <div class="icon"><i class="flaticon-file"></i></div>
-                                    <p class="content">15+ <br> Top Lessons</p>
-                                </li>
-                                <li class="about__info-list-item">
-                                    <div class="icon"><i class="flaticon-graduation-cap"></i></div>
-                                    <p class="content">180+ <br> Over Students</p>
-                                </li>
-                                <li class="about__info-list-item">
-                                    <div class="icon"><i class="flaticon-video-player"></i></div>
-                                    <p class="content">32+ <br> Pro Videos</p>
-                                </li>
-                            </ul>
-                            <div class="row mt-2">
-                                <div class="col-lg-6">
-                                    <img src="assets/img/apple.jpg" style="height: 80px;" alt="apple app store">
+            <div class="container rounded-3">
+                <div class="container pt-5 pb-5 rounded-3 " style="background-color: #CEE0FF;">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <center>
+                                <div class="bg-white m-4 p-5 text-center rounded-3" style="width: 75%;">
+                                    <img src="assets/img/google.png" width="380px" height="100px" />
+                                    <img class="mt-2" src="assets/img/apple.jpg" width="380px" height="100px" />
                                 </div>
-                                <div class="col-lg-6">
-                                    <img src="assets/img/google.png" style="height: 80px;" alt="apple app store">
+                                <div style="width: 75%;">
+                                    <p class="text-lg-start">We promise improvement in learning growth and marks or get
+                                        your fees back</p>
+                                    <p class="text-lg-start pt-3" style="color: #1255C3;">*T&C apply</p>
                                 </div>
-                            </div>
-
+                            </center>
                         </div>
-
+                        <div class="col-lg-6">
+                            <center><img src="assets/shield2.png" /></center>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -517,20 +434,16 @@
             <div class="container">
                 <div class="categories__title-wrap text-center text-lg-start m-0 mb-5">
                     <div class="section__title mb-0 text-center">
-                        <span class="sub-title text-center">Free Materials for You</span>
-                        <h2 class="title tg-svg text-center text-white">knowledge <span class="position-relative"><span class="svg-icon"
-                                    id="svg-5" data-svg-icon="assets/img/icons/title_shape.svg"></span>Center</span>
-                        </h2>
+                        <h2 class="text-white"> Free Study Materials</h2>
                     </div>
                 </div>
                 <!-- online-area -->
                 <div class="row container-fluid p-3">
-
                     <div class="col-lg-2">
                         <div class="p-2 rounded-3" style="background-color: #ACCCFF;">
                             <h4 class="text-danger">NCERT</h4>
                             <h5>Solutions</h5>
-                            <img src="assets/Group40.png"/>
+                            <img src="assets/Group40.png" />
                         </div>
                     </div>
                     <div class="col-lg-2">
@@ -543,8 +456,8 @@
                     <div class="col-lg-2">
                         <div class="p-2 rounded-3" style="background-color: #ACCCFF;">
                             <h5 class="text-danger">Previous Year</h4>
-                            <h5>Question Paper</h5>
-                            <img src="assets/book/Frame8.png" />
+                                <h5>Question Paper</h5>
+                                <img src="assets/book/Frame8.png" />
                         </div>
                     </div>
                     <div class="col-lg-2">
@@ -574,7 +487,7 @@
         </section>
         <!-- categories-area-end -->
 
-       <!--Kids Zone-->
+        <!--Kids Zone-->
         <section>
             <div class="bg-light">
                 <div class="container pt-5 pb-5">
@@ -583,15 +496,16 @@
                         <div class="col-lg-6">
                             <div class="rounded-3" style="background-color: #7BA8EF;">
                                 <div class="row p-3">
-                                    <div class="col-lg-3"><img src="assets/k-2.png"/></div>
+                                    <div class="col-lg-3"><img src="assets/k-2.png" /></div>
                                     <div class="col-lg-9">
                                         <h2 class="text-white">Master Classes</h2>
                                         <h5>Classes I - IV</h5>
                                         <p class="pb-3">Let your child learn all the concepts and excel in his
-                                        studies as well his career</p>
+                                            studies as well his career</p>
                                         <div class="pb-3">
-                                            <a href="" class="bg-white text-dark rounded-3 fw-bold"
-                                                style="padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;">Explore Now</a>
+                                            <a href="bulk_course.html" class="bg-white text-dark rounded-3 fw-bold"
+                                                style="padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px;">Explore
+                                                Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -602,9 +516,10 @@
                                     <div class="col-lg-9">
                                         <h2 class="text-dark">Spoken English</h2>
                                         <h5>Classes I - IV</h5>
-                                        <p class="pb-3">Let your child speak English fluently with our expert teachers and proven teaching techniques</p>
+                                        <p class="pb-3">Let your child speak English fluently with our expert teachers
+                                            and proven teaching techniques</p>
                                         <div class="pb-3">
-                                            <a href="" class="text-dark rounded-3 fw-bold text-white"
+                                            <a href="bulk_course.html" class="text-dark rounded-3 fw-bold text-white"
                                                 style="padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px; background-color: #11408A;">Explore
                                                 Now</a>
                                         </div>
@@ -831,6 +746,36 @@
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("April 15, 2024 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
 </body>
 
 </html>

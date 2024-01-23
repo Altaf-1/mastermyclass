@@ -1,0 +1,522 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MasterMyClass - Online Courses & Education System</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon-eduvalt.css">
+    <link rel="stylesheet" href="assets/css/default-icons.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/spacing.css">
+    <link rel="stylesheet" href="assets/css/tg-cursor.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <style>
+        .whatsapp_float {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Scroll-top -->
+    <button class="scroll__top scroll-to-target" data-target="html">
+        <i class="tg-flaticon-arrowhead-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <div class="whatsapp_float">
+        <a href="" target="_blank"><img src="assets/free_course.png" width="250px"
+                class="whatsapp_float_btn {{asset('comimages/uniweb/ab1.jpg')}}" /></a>
+    </div>
+
+    <div id="header-fixed-height"></div>
+    <header class="tg-header__style-two">
+        <div id="sticky-header" class="tg-header__area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mobile-nav-toggler"><i class="tg-flaticon-menu-1"></i></div>
+                        <div class="tgmenu__wrap">
+                            <nav class="tgmenu__nav">
+
+                                <div class="">
+                                    <a href="index.html"><img src="assets/Group35.png"
+                                            style="height: 80px; width: 240px;" alt="Logo"></a>
+                                </div>
+                                <div class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-xl-flex">
+                                    <ul class="navigation">
+                                        <li><a href="/about-us.html" style="font-size: 22px;">Kids Zone</a></li>
+                                        <li><a href="/about-us.html" style="font-size: 22px;">Assamese</a></li>
+                                        <li><a href="/about-us.html" style="font-size: 22px;">Bodo</a></li>
+                                        <li class="menu-item-has-children" style="font-size: 22px;"><a href="#"
+                                                style="font-size: 22px;">More</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="" style="font-size: 22px;">All Courses</a></li>
+                                                <li><a href="" style="font-size: 22px;">Course Details</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="tgmenu__action">
+                                    <ul class="list-wrap">
+                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Mobile Menu  -->
+                        <div class="tgmobile__menu">
+                            <nav class="tgmobile__menu-box">
+                                <div class="close-btn"><i class="tg-flaticon-close-1"></i></div>
+                                <div class="nav-logo">
+                                    <a href="index.html"><img src="assets/img/logo/log_2.png" alt="Logo"></a>
+                                </div>
+                                <div class="tgmobile__menu-outer">
+                                    <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                </div>
+                                <div class="tgmenu__action">
+                                    <ul class="list-wrap">
+                                        <li class="header-btn"><a href="" class="btn">Login/Register</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="tgmobile__menu-backdrop"></div>
+                        <!-- End Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-area-end -->
+
+
+
+    <!-- main-area -->
+    <main class="main-area fix">
+        <div class="text-center" style="background-color: #11408A;">
+            <p class="text-white" style="font-size: 28px;">Launching After : <span id="demo"></span></p>
+        </div>
+        <div class="bg-light">
+            <div class="container-fluid pl-2 pr-2">
+                <div class=" d-flex justify-content-center align-items-center pt-2 pb-2">
+                    <div class="dropdown" style="padding-right: 30px ;">
+                        <button class="btn btn-secondary dropdown-toggle text-dark p-3" type="button"
+                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
+                            style="background-color: #CEE1FF;">
+                            Class 10
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown" style="padding-right: 30px ;">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Board
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="p-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div>
+                            <h3> Class 10 CBSE</h3>
+                            <h1 style="font-size: 72px;">Bundle Course <span><sub
+                                        style="color: #BE7202;">4.5*/5</sub></span></h1>
+                            <div class="row pt-3">
+                                <div class="col-lg-3 d-flex align-items-center">
+                                    <h4>Subjects Covered:</h4>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="row">
+                                        <div class="col-lg-3 rounded text-center p-2 m-2"
+                                            style="background-color: #CEE1FF;">
+                                            <span style="font-size: 18px; ">English</span>
+                                        </div>
+                                        <div class="col-lg-3 rounded text-center p-2 m-2"
+                                            style="background-color: #CEE1FF;">
+                                            <span style="font-size: 18px; ">Science</span>
+                                        </div>
+                                        <div class="col-lg-3 rounded text-center p-2 m-2"
+                                            style="background-color: #CEE1FF;">
+                                            <span style="font-size: 18px; ">Maths</span>
+                                        </div>
+                                        <div class="col-lg-3 rounded text-center p-2 m-2"
+                                            style="background-color: #CEE1FF;">
+                                            <span style="font-size: 18px; ">Social Science</span>
+                                        </div>
+                                        <div class="col-lg-3 rounded text-center p-2 m-2"
+                                            style="background-color: #CEE1FF;">
+                                            <span style="font-size: 18px; ">Hindi</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row pt-5 d-flex align-items-center justify-content-center">
+                                <div class="col-lg-3 rounded text-center pt-2 m-1" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 16px; " class="text-dark fw-bold">Interactive Recorded
+                                        Class</span>
+                                </div>
+                                <div class="col-lg-3 rounded text-center pt-2 m-1" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 16px; " class="text-dark fw-bold">Full Syllabus
+                                        Course</span>
+                                </div>
+                                <div class="col-lg-3 rounded text-center pt-2 m-1" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 16px; " class="text-dark fw-bold">Live Peer Doubt
+                                        Solving</span>
+                                </div>
+                                <div class="col-lg-3 rounded text-center pt-2 m-1" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 14px; " class="text-dark fw-bold">Special
+                                        One-on-One Attention</span>
+                                </div>
+                                <div class="col-lg-3 rounded text-center pt-2 m-2" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 16px; " class="text-dark fw-bold">Parents Teacher’s
+                                        Meeting</span>
+                                </div>
+                                <div class="col-lg-3 rounded text-center pt-2 m-2" style="background-color: #CEE1FF;">
+                                    <span style="font-size: 16px; " class="text-dark fw-bold">Academic
+                                        Supervision</span>
+                                </div>
+                            </div>
+                            <div class="row p-5 d-flex justify-content-center align-items-center">
+                                <div class="col-lg-3 rounded text-center" style="background-color: #11408A;">
+                                    <a href="" class="text-white" style="font-size: 26px;">View Details</a>
+                                </div>
+                                <div class="col-lg-2 pt-2">
+                                    <h4 class="text-dark text-center">Language:</h4>
+                                </div>
+                                <div class="col-lg-2 rounded text-center" style="background-color: #08090a;">
+                                    <a href="" class="text-white" style="font-size: 20px;">Assamese</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-3">
+                            <img src="assets/course/Rectangle 100.png" width="100%" height="100%" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="pt-5" style="background-color: #A3C0EC;">
+                <div class="container pb-5">
+                    <div class="rounded-3" style="background-color: #244D8C">
+                        <div class="d-flex justify-content-center pb-4">
+                            <div class="rounded-3"
+                                style="background-color: #C0D9FF; padding-left: 80px; padding-right: 80px;">
+                                <h4 class=" p-2 rounded-pill text-white" style="background-color: #244D8C">Our Students
+                                </h4>
+                                <h1 class="text-center">1000+</h1>
+                            </div>
+                        </div>
+                        <div class="row p-5 ">
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 19.png" height="70px" />
+                                <h5 class="text-white pt-2">Teachers</h5>
+                            </div>
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 21.png" height="70px" />
+                                <h5 class="text-white pt-2">Questions</h5>
+                            </div>
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 22.png" height="70px" />
+                                <h5 class="text-white pt-2">Testimonial</h5>
+                            </div>
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 23.png" height="70px" />
+                                <h5 class="text-white pt-2">Free Course</h5>
+                            </div>
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 24.png" height="70px" />
+                                <h5 class="text-white pt-2">Ratings</h5>
+                            </div>
+                            <div class="text-center col-lg-2">
+                                <img src="assets/icons/course/Frame 25.png" height="70px" />
+                                <h5 class="text-white pt-2">Course Plan</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <section>
+                    <div class="container pt-3 pb-3">
+                        <div class="row justify-content-center">
+                            <div class="rounded col-lg-7">
+                                <div class=" pt-5 shadow p-3" style="background-color: #cad8f5;">
+                                    <div style="padding-left: 30px">
+                                        <h2>Class Topper Lite</h2>
+                                        <h4><del>₹ 7200</del> <span class="text-danger">(20%off)</span></h4>
+                                        <h1 style="font-size: 62px;">₹ 5000</h1>
+                                        <p style="font-size: 22px;">One-Time Payment</p>
+                                        <p style="font-size: 22px; width: 220px;"
+                                            class="bg-danger text-white rounded-3 text-center">EMI starts from ₹500</p>
+                                    </div>
+                                </div>
+                                <div class="bg-light">
+                                    <div style="padding-left: 40px;" class="pt-4 pb-4">
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Flexible Time</p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Free Live peer group doubt
+                                                solving <span class="text-danger">(5 session/Per Chapter)</span></p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">10 Hrs One-One Special
+                                                Session <span class="text-danger">(1hr/EMI)</span></p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Free Study Material</p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Group Teacher</p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Exam Assistance</p>
+                                        </div>
+                                        <div class="d-flex align-items-center ">
+                                            <p class="dot"></p>
+                                            <p style="padding-left: 20px; font-size: 22px;">Class Notes Pdf</p>
+                                        </div>
+                                        <div class="row" style="padding-left: 20px; padding-right: 40px;">
+                                            <a href="/student_panel.html" class="btn text-center text-dark col-lg-5 m-3"
+                                                style="background-color: #aec4ef;">Enroll Now</a>
+                                            <a href="" class="btn text-center text-white col-lg-5 m-3"
+                                                style="background-color: #073274;">Free Trial</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+
+
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer class="footer-bg" data-bg-color="var(--tg-common-color-dark)">
+        <div class="footer__top-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="footer-widget">
+                            <div class="footer__about">
+                                <div class="footer__logo logo">
+                                    <a href="index.html"><img src="assets/img/logo/log_2.png" style="width: 65;"
+                                            alt="img"></a>
+                                </div>
+                                <p>Online learning provides flexible access to diverse resources, fostering self-paced
+                                    skill development and global networking opportunities.</p>
+                                <ul class="list-wrap m-0 p-0">
+                                    <li class="address">Tezpur</li>
+                                    <li class="number">8638206840</li>
+                                    <li class="socials">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="footer-widget widget_nav_menu">
+                            <h4 class="fw-title">Resources</h4>
+                            <ul class="list-wrap">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Refund</a></li>
+                                <li><a href="#">Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="footer-widget widget_nav_menu">
+                            <h4 class="fw-title">Courses</h4>
+                            <ul class="list-wrap">
+                                <li><a href="#">I - III Classes</a></li>
+                                <li><a href="#">IV - VII Classes</a></li>
+                                <li><a href="#">VIII - X Classes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="footer-widget">
+                            <h4 class="fw-title">Working Hours</h4>
+                            <div class="footer__working-list">
+                                <div class="footer__working-item">
+                                    <span class="day">Mon - Fri</span>
+                                    <span class="time">8:00 AM - 5:00 PM</span>
+                                </div>
+                                <div class="footer__working-item">
+                                    <span class="day">Mon - Fri</span>
+                                    <span class="time">9:00 AM - 6:00 PM</span>
+                                </div>
+                                <div class="footer__working-item">
+                                    <span class="day">Mon - Fri</span>
+                                    <span class="time">10:00 AM - 8:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright__wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="copyright__text">
+                            <p>Copyright © 2023 MasterMyClass. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="copyright__menu">
+                            <ul class="list-wrap d-flex flex-wrap justify-content-center justify-content-lg-end">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area-end -->
+
+
+
+
+    <!-- JS here -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.odometer.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/tween-max.min.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/slick-animation.min.js"></script>
+    <script src="assets/js/tg-cursor.min.js"></script>
+    <script src="assets/js/vivus.min.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("April 15, 2024 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>

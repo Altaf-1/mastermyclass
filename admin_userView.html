@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Dashboard - EZCODE Student Pannel</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="" rel="icon">
+    <link href="" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/admin/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/admin/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/admin/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/admin/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/admin/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/admin/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/admin/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+    
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="">
+                <span class="d-none d-lg-block">GYANO ADMIN</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+    
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+                <li class="nav-item dropdown pe-3">
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="assets/admin/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+                    </a><!-- End Profile Iamge Icon -->
+    
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-bar-chart"></i>
+                                <span>Go To Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+    
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Sign Out</span>
+                            </a>
+                        </li>
+    
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+    
+            </ul>
+        </nav><!-- End Icons Navigation -->
+    
+    </header><!-- End Header -->
+    
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar" style="background-color: #053A8C;">
+    
+        <ul class="sidebar-nav" id="sidebar-nav">
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_panel.html">
+                    <i class="bi bi-grid"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_user.html">
+                    <i class="bi bi-menu-button-wide"></i>
+                    <span>Users</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_scholarship.html">
+                    <i class="bi bi-bar-chart"></i>
+                    <span>Scholarship</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_userNoCourse.html">
+                    <i class="bi bi-bar-chart"></i>
+                    <span>Target Students</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_userFreeCourse.html">
+                    <i class="bi bi-person"></i>
+                    <span>Trail Course Students</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_emp.html">
+                    <i class="bi bi-person"></i>
+                    <span>Admins</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_courseContent.html">
+                    <i class="bi bi-person"></i>
+                    <span>Course Content</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+    
+            <li class="nav-item">
+                <a class="nav-link " href="/admin_coursePanel.html">
+                    <i class="bi bi-person"></i>
+                    <span>Create Course</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+        </ul>
+    
+    </aside>
+    <!-- End Sidebar-->
+
+
+    <main id="main" class="main">
+        <section class="section dashboard">
+            <div style="background-color: #053A8C;" class="rounded-3">
+                <div class="row align-items-center" style="margin: 10px;">
+                    <div class="col-lg-9">
+                        <h2 class="p-4 fw-bold text-white">USER PANNEL</h2>
+                    </div>
+                </div>
+            </div>
+            <div style="background-color: #BCD6FF;" class="rounded-3 mt-3 pb-3">
+                <div class="rounded-3 pt-3">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3">
+                            <img src="assets/img/instructor01.png" alt="Profile" class="rounded border bg-white">
+                            <h1 class="pt-2 fw-bold text-dark"> UserId: GNO1</h1>
+                        </div>
+                        <div class="col-lg-8">
+                            <form>
+                                <div class="row mb-4">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">First Name</label>
+                                            <input type="text" class="form-control" id="" placeholder="Altaf">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">Last Name</label>
+                                            <input type="text" class="form-control" id="" placeholder="Hussain">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">Email Address</label>
+                                            <input type="text" class="form-control" id="" placeholder="hussainaltafali35@gmail.com">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">Phone Number</label>
+                                            <input type="text" class="form-control" id="" placeholder="9942354636">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">WhatsApp Number</label>
+                                            <input type="text" class="form-control" id="" placeholder="9942354636">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">Pincode</label>
+                                            <input type="text" class="form-control" id="" placeholder="786001">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">City</label>
+                                            <input type="text" class="form-control" id="" placeholder="Dibrugarh">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">District</label>
+                                            <input type="text" class="form-control" id="" placeholder="Dibrugarh">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">State</label>
+                                            <input type="text" class="form-control" id="" placeholder="Assam">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" class="fw-bold text-dark">Postal Address</label>
+                                            <input type="text" class="form-control" id="" placeholder="Near State Bank of India">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                            </form>
+                            <h3 class="text-center bg-dark pt-2 pb-2 fw-bold text-white rounded-3">User Degisnation</h3>
+                            <form>
+                                <div class="row pt-4 justify-content-center">
+                                    <div class="col-lg-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle text-white" type="button" style="background-color: #11408A; width: 100%;"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Select Role
+                                            </button>
+                                            <ul class="dropdown-menu text-white" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">User</a></li>
+                                                <li><a class="dropdown-item" href="#">Admin</a></li>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary dropdown-toggle text-white" type="button" style="background-color: #11408A; width: 100%;"
+                                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Select Designation
+                                            </button>
+                                            <ul class="dropdown-menu text-white" aria-labelledby="dropdownMenuButton1">
+                                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                <li><a class="dropdown-item" href="#">Something else here</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <a href="/admin_user.html" class="text-center bg-danger rounded-3 text-white fw-bold"
+                                            style="font-size: 22px; padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; width: 100%;">Update</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/admin/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/admin/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/admin/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/admin/vendor/quill/quill.min.js"></script>
+    <script src="assets/admin/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/admin/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/admin/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/admin/js/main.js"></script>
+
+</body>
+
+</html>
