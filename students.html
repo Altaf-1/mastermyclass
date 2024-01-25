@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dashboard - EZCODE Student Pannel</title>
+    <title>Dashboard - MasterMyClass Admin</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="" rel="icon">
-    <link href="" rel="apple-touch-icon">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.gstatic.com" rel="preconnect">
@@ -27,7 +27,6 @@
     <link href="assets/admin/vendor/quill/quill.bubble.css" rel="stylesheet">
     <link href="assets/admin/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/admin/vendor/simple-datatables/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- Template Main CSS File -->
     <link href="assets/admin/css/style.css" rel="stylesheet">
@@ -206,127 +205,66 @@
     </aside>
     <!-- End Sidebar-->
 
-
     <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Dashboard</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Students</li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+
         <section class="section dashboard">
-            <div style="background-color: #053A8C;" class="rounded-3">
-                <div class="row align-items-center" style="margin: 10px;">
-                    <div class="col-lg-9">
-                        <h2 class="p-4 fw-bold text-white">Create Course</h2>
+            <div>
+                <div class="card">
+                    <div class="card-body pt-3">
+                        <!-- Bordered Table -->
+                        <table class="table table-bordered pt-3">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Assign</th>
+                                    <th scope="col">Lead Number</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Phone Number</th>
+                                    <th scope="col">District</th>
+                                    <th scope="col">State</th>
+                                    <th scope="col">Date Of Registration</th>
+                                    <th scope="col">Mode</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            </div>
+                                        </div>
+                                    </th>
+                                    <td>MMC001</td>
+                                    <td>Brandon Jacob</td>
+                                    <td>jacob@gmail.com</td>
+                                    <td>99543627727</td>
+                                    <td>Dibrugarh</td>
+                                    <td>Assam</td>
+                                    <td>11/02/2023</td>
+                                    <td>App</td>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- End Bordered Table -->
+
                     </div>
-                </div>
-            </div>
-            <div style="background-color: #BCD6FF;" class="rounded-3 mt-3 p-3">
-                <div class=" rounded-3 p-2">
-                    <form>
-                        <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Rate">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                            aria-expanded="false" style="width: 100%;">
-                                            Select Class
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Class 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Class 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Class 3</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
-                                            Select Board
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">SEBA</a></li>
-                                            <li><a class="dropdown-item" href="#">CBSE</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
-                                            Select Language
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Assamese</a></li>
-                                            <li><a class="dropdown-item" href="#">Boro</a></li>
-                                            <li><a class="dropdown-item" href="#">Hindi</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Subject Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Duration">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Extra Content">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Sales Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Discount %">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group d-flex">
-                                    <h6 class="fw-bold" style="padding-right: 20px;">Course Image</h6>
-                                    <input type="file" class="form-control" id="customFile" style="width: 260px;"/>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Emi Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <textarea cols="90"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary text-center mt-4">Submit</button>
-                    </form>
                 </div>
             </div>
         </section>
 
     </main><!-- End #main -->
-
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 

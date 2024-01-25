@@ -206,13 +206,12 @@
     </aside>
     <!-- End Sidebar-->
 
-
     <main id="main" class="main">
         <section class="section dashboard">
             <div style="background-color: #053A8C;" class="rounded-3">
                 <div class="row align-items-center" style="margin: 10px;">
                     <div class="col-lg-9">
-                        <h2 class="p-4 fw-bold text-white">Create Course</h2>
+                        <h2 class="p-4 fw-bold text-white">Create Videos</h2>
                     </div>
                 </div>
             </div>
@@ -220,17 +219,7 @@
                 <div class=" rounded-3 p-2">
                     <form>
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Rate">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
+                            <div class="col-lg-4 pt-3">
                                 <div class="form-group">
                                     <div class="dropdown">
                                         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
@@ -276,50 +265,56 @@
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Subject Name">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
+                                            Select Subject
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Math</a></li>
+                                            <li><a class="dropdown-item" href="#">Science</a></li>
+                                            <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Duration">
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
+                                            Select Chapter
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Number System</a></li>
+                                            <li><a class="dropdown-item" href="#">Algebra</a></li>
+                                            <li><a class="dropdown-item" href="#">Coordinate Geometry</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Extra Content">
+                                    <input type="text" class="form-control" id="" placeholder="Video Title">
                                 </div>
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Amount">
+                                    <input type="text" class="form-control" id="" placeholder="Video Description">
                                 </div>
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Sales Amount">
+                                    <input type="text" class="form-control" id="" placeholder="video link">
                                 </div>
                             </div>
                             <div class="col-lg-4 pt-3">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Discount %">
+                                    <input type="date" class="form-control" id="">
                                 </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group d-flex">
-                                    <h6 class="fw-bold" style="padding-right: 20px;">Course Image</h6>
-                                    <input type="file" class="form-control" id="customFile" style="width: 260px;"/>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Emi Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <textarea cols="90"></textarea>
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary text-center mt-4">Submit</button>
+                        <button type="submit" class="btn btn-primary fw-bold text-center mt-4">Generate Video</button>
                     </form>
                 </div>
             </div>

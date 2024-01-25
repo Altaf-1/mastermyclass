@@ -212,115 +212,58 @@
             <div style="background-color: #053A8C;" class="rounded-3">
                 <div class="row align-items-center" style="margin: 10px;">
                     <div class="col-lg-9">
-                        <h2 class="p-4 fw-bold text-white">Create Course</h2>
+                        <h2 class="p-4 fw-bold text-white">CLASS QUIZ</h2>
+                    </div>
+                    <div class="col-lg-3 p-2 bg-white text-center rounded-3">
+                        <h3 class="fw-bold">Total Quiz: 2</h3>
                     </div>
                 </div>
             </div>
-            <div style="background-color: #BCD6FF;" class="rounded-3 mt-3 p-3">
-                <div class=" rounded-3 p-2">
-                    <form>
-                        <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Enter Course Rate">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                                            aria-expanded="false" style="width: 100%;">
-                                            Select Class
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Class 1</a></li>
-                                            <li><a class="dropdown-item" href="#">Class 2</a></li>
-                                            <li><a class="dropdown-item" href="#">Class 3</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
-                                            Select Board
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">SEBA</a></li>
-                                            <li><a class="dropdown-item" href="#">CBSE</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                            data-bs-toggle="dropdown" aria-expanded="false" style="width: 100%;">
-                                            Select Language
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Assamese</a></li>
-                                            <li><a class="dropdown-item" href="#">Boro</a></li>
-                                            <li><a class="dropdown-item" href="#">Hindi</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Subject Name">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Duration">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Extra Content">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Course Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Sales Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Discount %">
-                                </div>
-                            </div>
-                            <div class="col-lg-4 pt-3">
-                                <div class="form-group d-flex">
-                                    <h6 class="fw-bold" style="padding-right: 20px;">Course Image</h6>
-                                    <input type="file" class="form-control" id="customFile" style="width: 260px;"/>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="" placeholder="Emi Amount">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 pt-3">
-                                <textarea cols="90"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary text-center mt-4">Submit</button>
-                    </form>
+            <div style="background-color: #BCD6FF;" class="rounded-3 mt-3 pb-3">
+                <div class=" rounded-3">
+                    <div class="pt-4">
+                        <a href="/admin_createQuiz.html" class="bg-danger text-white fw-bold p-3 rounded-3"
+                            style="font-size: 22px; margin: 50px;">Create Class Quiz</a>
+                    </div>
+                    <table class="table mt-4">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="text-white bg-dark text-center">Id</th>
+                                <th scope="col" class="text-white bg-dark text-center">Quiz Name</th>
+                                <th scope="col" class="text-white bg-dark text-center">Date</th>
+                                <th scope="col" class="text-white bg-dark text-center">Question</th>
+                                <th scope="col" class="text-white bg-dark text-center">Assign Course</th>
+                                <th scope="col" class="text-white bg-dark text-center">Update</th>
+                                <th scope="col" class="text-white bg-dark text-center">Remove</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold text-center pb-3 pt-3">GNO1</th>
+                                <td class="fw-bold text-center pt-3">Test 1</td>
+                                <td class="fw-bold text-center pt-3">12/1/2024</td>
+                                <td class="fw-bold text-center pt-3"><a href="/admin_createQuestion.html" class="text-white fw-bold bg-success p-2 text-center rounded-3">Create</a></td>
+                                <td class="fw-bold text-center pt-3"><a href="" class="text-white fw-bold bg-success p-2 text-center rounded-3">Assign</a></td>
+                                <td class="text-center pt-3"><a href=""
+                                        class="text-white fw-bold bg-success p-2 text-center rounded-3">Edit</a></td>
+                                <td class="text-center pt-3"><a href=""
+                                        class="text-white fw-bold bg-danger p-2 text-center rounded-3">Delete</a></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold text-center pb-3 pt-3">GNO2</th>
+                                <td class="fw-bold text-center pt-3">Test 2</td>
+                                <td class="fw-bold text-center pt-3">12/1/2024</td>
+                                <td class="fw-bold text-center pt-3"><a href=""
+                                        class="text-white fw-bold bg-success p-2 text-center rounded-3">Create</a></td>
+                                <td class="fw-bold text-center pt-3"><a href=""
+                                        class="text-white fw-bold bg-success p-2 text-center rounded-3">Assign</a></td>
+                                <td class="text-center pt-3"><a href="" class="text-white fw-bold bg-success p-2 text-center rounded-3">Edit</a>
+                                </td>
+                                <td class="text-center pt-3"><a href="" class="text-white fw-bold bg-danger p-2 text-center rounded-3">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
