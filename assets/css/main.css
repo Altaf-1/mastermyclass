@@ -133,6 +133,12 @@ a:focus,
   box-shadow: none;
 }
 
+.nav_link:hover{
+  background-color: #11408A;
+  color: #FFFFFF !important;
+  padding-top: 15px;
+}
+
 a:hover,
 button:hover {
   color: var(--tg-theme-secondary);
@@ -690,34 +696,12 @@ textarea {
   transition: 1s ease;
   border: none;
 }
-@media (max-width: 1199.98px) {
-  .scroll__top {
-    right: 25px;
-    bottom: 25px;
-  }
-}
-@media (max-width: 991.98px) {
-  .scroll__top {
-    right: 30px;
-  }
-}
-@media (max-width: 767.98px) {
-  .scroll__top {
-    right: 15px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    text-align: center;
-  }
-}
+
+
 .scroll__top.open {
   bottom: 30px;
 }
-@media (max-width: 767.98px) {
-  .scroll__top.open {
-    bottom: 15px;
-  }
-}
+
 .scroll__top::after {
   position: absolute;
   z-index: -1;
@@ -1982,14 +1966,13 @@ textarea {
     04. Banner
 ===============================*/
 .banner-bg {
-  min-height: 780px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
   align-items: flex-end;
-  padding: 63px 0 0;
+  padding: 43px 0 0;
   position: relative;
 }
 @media (max-width: 1500px) {
@@ -1999,7 +1982,7 @@ textarea {
 }
 @media (max-width: 1199.98px) {
   .banner-bg {
-    padding: 140px 0 0;
+    padding: 40px 0 0;
   }
 }
 .banner__content {
